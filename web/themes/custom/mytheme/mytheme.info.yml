@@ -6,6 +6,7 @@ screenshot: mytheme.jpeg
 
 regions:
   header: Header
+  mythememenu: Navigation
   content: Content
   sidebar_first: Sidebar First
   footer: Footer
@@ -14,4 +15,3 @@ regions:
 
 libraries:
   - mytheme/global-css
-  - mytheme/pacifico

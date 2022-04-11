@@ -1,0 +1,31 @@
+uuid: 7997735e-6979-4f57-b09f-0a88208bc68e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:da7efaac-8019-409a-9140-93405fded9a7'
+  module:
+    - block_content
+    - system
+  theme:
+    - eg
+id: who
+theme: eg
+region: front
+weight: -9
+provider: null
+plugin: 'block_content:da7efaac-8019-409a-9140-93405fded9a7'
+settings:
+  id: 'block_content:da7efaac-8019-409a-9140-93405fded9a7'
+  label: Who
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

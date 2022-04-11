@@ -1,0 +1,31 @@
+uuid: bee29a1f-1b3d-430c-b5c6-e1d589bee7fa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:230c1374-d925-4f00-860e-d4604ed841a8'
+  module:
+    - block_content
+    - system
+  theme:
+    - eg
+id: myphilosophy
+theme: eg
+region: front
+weight: -7
+provider: null
+plugin: 'block_content:230c1374-d925-4f00-860e-d4604ed841a8'
+settings:
+  id: 'block_content:230c1374-d925-4f00-860e-d4604ed841a8'
+  label: 'My Philosophy'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
